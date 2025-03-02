@@ -1,0 +1,392 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #EAF7F0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.hero-content img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+    color: #10c09d;
+}
+ h1 {
+    font-size: 32px;
+    color: #1ABC9C;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #333;
+}
+
+.hero button {
+    background-color: #1ABC9C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Services Section */
+.click-text {
+    color: #1ABC9C;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service {
+    text-align: center;
+    width: 180px;
+}
+
+.service img {
+    width: 100px;
+    border-radius: 70%;
+}
+
+.service h4 {
+    color: #1ABC9C;
+    margin: 10px 0 5px;
+}
+
+/* Doctors Section */
+.doctors {
+    background-color: #1ABC9C;
+    padding: 40px 20px;
+    color: white;
+}
+
+.doctors h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.doctor {
+    display: flex;
+    align-items: center;
+    background: white;
+    color: black;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.doctor img {
+    width: 220px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-icons img {
+    height: 80px;
+    margin: 0 5px;
+}
+
+/* Location Phase Section */
+.location-phase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fffbfb;
+}
+
+.location-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: white;
+    border-radius: 10px;
+    height: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.location-image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.location-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 40px;
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    color: #1ABC9C;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input-group input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact-form button {
+    background-color: #1ABC9C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #169c7a;
+}
+
+.location-section h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Map Container */
+.map-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Google Map Iframe */
+.map-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+
+
+
+
+.chat-header {
+    background-color: #1f6b52;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Video Container */
+.video-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Video */
+.video-container iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Section Header */
+.fitness-carousel h2 {
+    color: #1f6b52;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+/* Carousel Container */
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 20px;
+}
+
+/* Carousel Inner */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Carousel Items */
+.carousel-item {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Image Styling */
+.carousel-item img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Text Content */
+.text-content {
+    text-align: left;
+    color: #1f6b52;
+}
+
+.text-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Carousel Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

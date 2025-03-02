@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header style="display: flex;flex-direction:column;">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Health-Connect Logo">
+            <h1>Health-Connect</h1>
+        </div>
+        <nav>
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li style="text-decoration: underline;"><a href="location.html">Location-Phase</a></li>
+                <li><a href="fitness.html">Fitness-Phase</a></li>
+                <li><a href="video.html">Instant-Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="location-phase" class="location-phase">
+        <div class="location-container">
+            <div class="location-image">
+                <img src="assets/loc-pic-1.jpg" alt="Doctor holding a mask and stethoscope">
+            </div>
+            <div class="contact-form">
+                <h2>**Contact Us**</h2>
+                <form action="#" method="POST">
+                    <div class="input-group">
+                        <input type="text" name="firstname" placeholder="First name*" required>
+                        <input type="text" name="phone" placeholder="Phone number*" required>
+                    </div>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="location-section">
+        <h2>ADD LOCATION</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6141946.486096568!2d77.41261321617615!3d20.59368497697869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDM1JzQwLjkiTiA3N8KwMjUnMzEuMiJF!5e0!3m2!1sen!2sin!4v1616583453448!5m2!1sen!2sin" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    <footer>
+        <img src="assets/logo.png" alt="Health-Connect Logo">
+        <p>&copy; 2024, All Rights Reserved.</p>
+        <div class="social-icons">
+            <img src="assets/facebook-icon.png" alt="Facebook">
+            <img src="assets/twitter-icon.png" alt="Twitter">
+            <img src="assets/instagram-icon.png" alt="Instagram">
+        </div>
+    </footer>
+</body>
+</html>
