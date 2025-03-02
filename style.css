@@ -390,3 +390,73 @@ body {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-size: 16px;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 20px;
+    }
+    .hero-text p {
+        font-size: 14px;
+    }
+    .hero button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .doctor {
+        width: 100%;
+    }
+    .doctor img {
+        width: 70%;
+    }
+    .map-container iframe {
+        height: 300px;
+    }
+}
